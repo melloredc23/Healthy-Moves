@@ -26,11 +26,13 @@ st.header("Let's Start Your Dance Journey!")
 st.image('groupdance.jpg')
 
 #Datasets
-df = pd.read_csv('/Users/kendallandrews/Downloads/dances/dance data.csv', encoding='latin-1')
-df2 = pd.read_csv("/Users/kendallandrews/Downloads/calories-burned-during-exercise-and-activities/exercise_dataset.csv")
+#df = pd.read_csv('/Users/kendallandrews/Downloads/dances/dance data.csv', encoding='latin-1')
+#df2 = pd.read_csv("/Users/kendallandrews/Downloads/calories-burned-during-exercise-and-activities/exercise_dataset.csv")
+df = pd.read_csv('dance data.csv', encoding='latin-1')
+df2 = pd.read_csv("exercise_dataset.csv")
 d3 = df2.drop(['130 lb', '155 lb', '180 lb', '205 lb'], axis=1)
 d3 = d3.iloc[[29, 34, 35, 36],:]
-df3 = pd.read_csv("/Users/kendallandrews/Downloads/CVD_cleaned.csv")
+df3 = pd.read_csv("CVD_cleaned.csv")
 
 #Tabs -> Sidebar
 pages = st.sidebar.radio("Pages:", ['Home Page', 'Profile', 'Library', 'Background', "FAQ's", 'Data Science Work'])
