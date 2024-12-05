@@ -24,6 +24,9 @@ st.title("**Welcome to Healthy Moves**")
 st.header("Let's Start Your Dance Journey!")
 #st.image('/Users/kendallandrews/Downloads/groupdance.jpg')
 st.image('groupdance.jpg')
+st.subheader("Are you ready to transform your fitness journey with the rhythm of dance? This app is designed to help you discover the health benefits of various dance routines and build personalized playlists tailored to your fitness goals and preferences. Whether you're looking to boost cardiovascular health or simply have fun, this app combines data-driven insights with the joy of movement.")
+if st.button("Let's Begin", type="primary"):
+    st.write("Start by creating your profile by clicking the arrow in the upper left hand corner")
 
 #Datasets
 #df = pd.read_csv('/Users/kendallandrews/Downloads/dances/dance data.csv', encoding='latin-1')
