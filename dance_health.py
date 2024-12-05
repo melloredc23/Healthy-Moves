@@ -22,7 +22,8 @@ import plotly.figure_factory as ff
 st.title("**Welcome to Healthy Moves**")
 # Rhythm and Burn, Healthy Moves, Healthy Steps, Rhythm Revive Repeat, 
 st.header("Let's Start Your Dance Journey!")
-st.image('/Users/kendallandrews/Downloads/groupdance.jpg')
+#st.image('/Users/kendallandrews/Downloads/groupdance.jpg')
+st.image('groupdance.jpg')
 
 #Datasets
 df = pd.read_csv('/Users/kendallandrews/Downloads/dances/dance data.csv', encoding='latin-1')
@@ -672,7 +673,7 @@ if pages == 'Background':
 
 if pages == "FAQ's":
     st.subheader("**Frequently Asked Questions**")
-    st.image('/Users/kendallandrews/Downloads/hangintherebaby.jpg')
+    st.image('hangintherebaby.jpg')
     st.write("This page is currently under construction!")
     st.write("Sorry for the inconvience :(")
 
