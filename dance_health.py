@@ -686,7 +686,7 @@ if pages == 'Data Science Work':
     with tab1:
         st.header("Dance Styles and Genres")
 
-        df = pd.read_csv('/Users/kendallandrews/Downloads/dances/dance data.csv', encoding='latin-1')
+        df = pd.read_csv('dance data.csv', encoding='latin-1')
         st.write("Dance Styles and Genres Dataset")
         st.dataframe(df)
 
