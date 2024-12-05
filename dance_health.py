@@ -1734,7 +1734,7 @@ plt.title('Heatmap for Health Benefits Matrix')
     with tab3:
         st.header("Calories")
 
-        df2 = pd.read_csv("/Users/kendallandrews/Downloads/calories-burned-during-exercise-and-activities/exercise_dataset.csv")
+        df2 = pd.read_csv("exercise_dataset.csv")
     
         st.write("Calories Dataset")
         st.dataframe(df2)
@@ -2033,7 +2033,7 @@ plt.show()
 
     with tab4:
         st.header("Cardiovascular")
-        df3 = pd.read_csv("/Users/kendallandrews/Downloads/CVD_cleaned.csv")
+        df3 = pd.read_csv("CVD_cleaned.csv")
         st.write("Cardiovascular Dataset")
         st.dataframe(df3)
 
