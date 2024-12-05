@@ -685,6 +685,7 @@ if pages == 'Data Science Work':
     tab1, tab2, tab3, tab4 = st.tabs(["Dance", "Health Benefits", "Calories", "Cardiovascular"])
     with tab1:
         st.header("Dance Styles and Genres")
+        st.write("from Kaggle.com")
 
         df = pd.read_csv('dance data.csv', encoding='latin-1')
         st.write("Dance Styles and Genres Dataset")
@@ -1443,7 +1444,7 @@ print(z1)
                     health_benefits_matrix.at[row, col] = dance_names[row]  # Replace 1 with the dance name
 
 
-        st.write("Health Benefits Dataset")
+        st.write("Health Benefits Dataset ~ *Kaggle*")
         st.dataframe(health_benefits_matrix)
 
         st.subheader("IDA")
