@@ -684,10 +684,10 @@ if pages == 'Data Science Work':
     #IDA, EDA, cleaning, encoding, imputing, modeling, etc.
     tab1, tab2, tab3, tab4 = st.tabs(["Dance", "Health Benefits", "Calories", "Cardiovascular"])
     with tab1:
-        st.header("Dance Styles and Genres ~ *Kaggle*")
+        st.header("Dance Styles and Genres")
 
         df = pd.read_csv('dance data.csv', encoding='latin-1')
-        st.write("Dance Styles and Genres Dataset")
+        st.write("Dance Styles and Genres Dataset ~ *Kaggle*")
         st.dataframe(df)
 
         st.subheader("IDA")
