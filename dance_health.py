@@ -573,7 +573,7 @@ if pages == 'Background':
     
     st.subheader("Let's start with **Improved cardiovascular health**!")
 
-    st.write("Cardivascular health can be determined by your sex, age, height, weight, BMI. Other diseases may impact heart disease such as: diabetes, arthiris, smoking, and depression. ")
+    st.write("Cardiovascular health can be determined by your sex, age, height, weight, BMI. Other diseases may impact heart disease such as: diabetes, arthiris, smoking, and depression. ")
     #Depression, **Diabetes**, **Arthiritis**, Sex, Age, Height, Weight, BMI, **Smoking**
     
     
@@ -633,8 +633,8 @@ if pages == 'Background':
     #Plot
 
     # Streamlit display
-    st.title("Correlation Heatmap Example")
-    st.write("This is the correlation heatmap showing the relationships between various metrics in cardiovascular dataset")
+    st.title("Correlation Heatmap")
+    st.write("This is the correlation heatmap showing the relationships between various metrics that affect cardiovascular health")
 
     # Create the heatmap using seaborn
     corr_matrix = df3[numeric_cols_df3].corr()
@@ -644,8 +644,8 @@ if pages == 'Background':
     # Display the heatmap in Streamlit
     st.pyplot(fig)
 
-    st.write("In order to keep good cardiovascular health you should keep a **heart-healthy diet**, **stay active**, **keep a health weight**, **Do not partake in smoking and drink alcohol in moderation**.")
-    st.write("To help you stay active, the dances you can do to prevent heart disease are as follows:")
+    st.write("In order to keep good cardiovascular health you should keep a **heart-healthy diet**, **stay active**, **keep a health weight**, **do not partake in smoking**, **and drink alcohol in moderation**.")
+    st.write("To help you stay active, here are some dances you can do to prevent heart disease:")
 
     #Create own dataset
     dance_names = df['Dance style'].tolist()  # Convert dance styles to a list
