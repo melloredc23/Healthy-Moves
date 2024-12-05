@@ -573,7 +573,7 @@ if pages == 'Background':
     
     st.subheader("Let's start with **Improved cardiovascular health**!")
 
-    st.write("Cardivascular health can by your sex, age,height, weight, BMI. Other diseases may impact heart diesease such as: diabetes, arthiris, smoking, and depression. ")
+    st.write("Cardivascular health can be determined by your sex, age, height, weight, BMI. Other diseases may impact heart disease such as: diabetes, arthiris, smoking, and depression. ")
     #Depression, **Diabetes**, **Arthiritis**, Sex, Age, Height, Weight, BMI, **Smoking**
     
     
