@@ -684,8 +684,7 @@ if pages == 'Data Science Work':
     #IDA, EDA, cleaning, encoding, imputing, modeling, etc.
     tab1, tab2, tab3, tab4 = st.tabs(["Dance", "Health Benefits", "Calories", "Cardiovascular"])
     with tab1:
-        st.header("Dance Styles and Genres")
-        st.write("from Kaggle.com")
+        st.header("Dance Styles and Genres ~ *Kaggle*")
 
         df = pd.read_csv('dance data.csv', encoding='latin-1')
         st.write("Dance Styles and Genres Dataset")
@@ -1737,7 +1736,7 @@ plt.title('Heatmap for Health Benefits Matrix')
 
         df2 = pd.read_csv("exercise_dataset.csv")
     
-        st.write("Calories Dataset")
+        st.write("Calories Dataset ~ *Kaggle*")
         st.dataframe(df2)
 
         #Edited Calories Dataset
@@ -2035,7 +2034,7 @@ plt.show()
     with tab4:
         st.header("Cardiovascular")
         df3 = pd.read_csv("CVD_cleaned.csv")
-        st.write("Cardiovascular Dataset")
+        st.write("Cardiovascular Dataset ~ *Kaggle*")
         st.dataframe(df3)
 
         st.subheader("IDA")
