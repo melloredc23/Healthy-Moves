@@ -2,8 +2,7 @@
 
 ## Description
 
-This application is designed to help you discover the health benefits of various dance routines and build personalized playlists tailored to your fitness goals and preferences.  
-The application consists of multiple pages such as the homepage, profile page, dance library page, background page, and data science breakdown page. The pages provides users with the ability to create a profile that allows them to find a recommmended dance style specifically for them. Whether you're looking to boost cardiovascular health or simply have fun, this app combines data-driven insights with the joy of movement to transform your fitness journey with dance.
+This application is designed to help you discover the health benefits of various dance routines and build personalized playlists tailored to your fitness goals and preferences. The application consists of multiple pages such as the homepage, profile page, dance library page, background page, and data science breakdown page. The pages provides users with the ability to create a profile that allows them to find a recommmended dance style specifically for them. Whether you're looking to boost cardiovascular health or simply have fun, this app combines data-driven insights with the joy of movement to transform your fitness journey with dance.
 
 
 ## Getting Started
