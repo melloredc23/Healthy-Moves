@@ -1,6 +1,4 @@
-# Application Title
-
-Healthy-Moves
+# Healthy-Moves
 
 ## Description
 
