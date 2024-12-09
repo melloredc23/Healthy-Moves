@@ -1100,7 +1100,7 @@ for i in duplicate_rows:
         st.code(code, language='python')
 
     with tab2:
-       st.header("Health Benefits")
+        st.header("Health Benefits")
 
         health_benefits_split = df['Health Benefits'].str.split(",")
         my_list = health_benefits_split.tolist()
@@ -2033,6 +2033,9 @@ for i in duplicate_rows:
     dfr=df
         '''
         st.code(code,language='python')
+
+
+       
 
 
     with tab3:
