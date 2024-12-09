@@ -602,7 +602,7 @@ if pages == 'Data Science Work':
     st.header("Data Science Work")
     #IDA, EDA, cleaning, encoding, imputing, modeling, etc.
     tab1, tab2, tab3, tab4 = st.tabs(["Dance", "Health Benefits", "Calories", "Cardiovascular"])
-     st.title("Data Science Work")
+    st.title("Data Science Work")
     #IDA, EDA, cleaning, encoding, imputing, modeling, etc.
     tab1, tab2, tab3, tab4 = st.tabs(["Dance", "Health Benefits", "Calories", "Cardiovascular"])
     with tab1:
