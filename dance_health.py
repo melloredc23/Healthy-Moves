@@ -1355,7 +1355,7 @@ for i in duplicate_rows:
 
         st.write("Merged Dataset with Dance Dataset")
         #Merged Datasets Code:
-        df = pd.read_csv('/Users/kendallandrews/Downloads/dances/dance data.csv', encoding='latin-1')
+        df = pd.read_csv('dance data.csv', encoding='latin-1')
 
         benefit_keywords = {
         'Improved cardiovascular health': [
