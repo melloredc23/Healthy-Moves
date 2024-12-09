@@ -606,7 +606,7 @@ if pages == 'Data Science Work':
         st.header("Dance Styles and Genres")
 
         df = pd.read_csv('dance data.csv', encoding='latin-1')
-        st.write("Dance Styles and Genres Dataset")
+        st.write("Dance Styles and Genres Dataset ~ *Kaggle*")
         st.dataframe(df)
 
         #Purpose:
@@ -1347,7 +1347,7 @@ for i in duplicate_rows:
                     health_benefits_matrix.at[row, col] = "None"
 
 
-        st.write("Health Benefits Dataset")
+        st.write("Health Benefits Dataset ~ *Kaggle*")
         st.dataframe(health_benefits_matrix)
 
         st.write("Merged Dataset with Dance Dataset")
@@ -2039,7 +2039,7 @@ for i in duplicate_rows:
         st.header("Calories")
         df2 = pd.read_csv("exercise_dataset.csv")
     
-        st.write("Calories Dataset")
+        st.write("Calories Dataset ~ *Kaggle*")
         st.dataframe(df2)
 
         #Purpose:
@@ -2337,7 +2337,7 @@ for i in duplicate_rows:
     with tab4:
         st.header("Cardiovascular")
         df3 = pd.read_csv("CVD_cleaned.csv")
-        st.write("Cardiovascular Dataset")
+        st.write("Cardiovascular Dataset ~ *Kaggle*")
         st.dataframe(df3)
 
         #Purpose:
@@ -2795,7 +2795,7 @@ print("\nSTANDARD DEVIATION: ", df3[numeric_cols_df3].std())
         st.pyplot(fig)
 
         st.code(code, language="python")
-        st.write("PCA")
+        st.write("PCA - Linear Algebra")
         numeric_cols_df3 = df3.select_dtypes(include='number').columns
 
         # Standardize the features
