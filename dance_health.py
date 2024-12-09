@@ -17,6 +17,7 @@ import opendatasets as od
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
 
+#please run
 #Datasets
 #df = pd.read_csv('/Users/kendallandrews/Downloads/dances/dance data.csv', encoding='latin-1')
 #df2 = pd.read_csv("/Users/kendallandrews/Downloads/calories-burned-during-exercise-and-activities/exercise_dataset.csv")
