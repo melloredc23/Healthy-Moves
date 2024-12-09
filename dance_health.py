@@ -2339,7 +2339,7 @@ for i in duplicate_rows:
 
     with tab4:
         st.header("Cardiovascular")
-        df3 = pd.read_csv("/Users/kendallandrews/Downloads/CVD_cleaned.csv")
+        df3 = pd.read_csv("CVD_cleaned.csv")
         st.write("Cardiovascular Dataset")
         st.dataframe(df3)
 
