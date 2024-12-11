@@ -585,7 +585,6 @@ if pages == "Dance Recommendation System":
 
     if 'Improved cardiovascular health' in health_focus:
         st.subheader("Improved cardiovascular health")
-        st.divider()
         st.markdown('''
                     **Cardiovascular health** refers to the overall well-being of your heart and blood vessels.
                     
@@ -603,6 +602,7 @@ if pages == "Dance Recommendation System":
                     - **keep a health weight**
                     - **No smoking or alcohol; in moderation**
                     ''')
+        st.divider()
     if 'Improved flexibility' in health_focus:
         st.subheader("Improved flexibility")
         st.markdown('''
@@ -620,6 +620,7 @@ if pages == "Dance Recommendation System":
                     - **healthy diet**
                     **exercise**
                     ''')
+        st.divider()
     
     if 'Stress relief' in health_focus:
         st.subheader("Stress relief")
@@ -649,7 +650,7 @@ if pages == "Dance Recommendation System":
                     - **take breaks**
                     - **have fun: laugh, listen to music, play fun activities**
                     ''')
-        
+        st.divider()
     if 'Confidence' in health_focus:
         st.subheader("Confidence")
         st.markdown('''
@@ -668,6 +669,7 @@ if pages == "Dance Recommendation System":
                     - **embrace failure**
                     - **acknowledge strengths and achievements**
                     ''')
+        st.divider()
     if 'Physical fitness' in health_focus:
         st.subheader("Physical fitness")
         st.markdown('''
@@ -689,7 +691,7 @@ if pages == "Dance Recommendation System":
                     - **exercise - weight training, biking, walking, running, aerobic exercise, sports**
                     - **healthy diet**
                     ''')
-    
+        st.divider()
     if 'Social connection' in health_focus:
         st.subheader("Social connection")
         st.markdown('''
@@ -713,7 +715,7 @@ if pages == "Dance Recommendation System":
                     - **getting involved in the community**
 
                     ''')
-        
+        st.divider()
     if 'Strength' in health_focus:
         st.subheader("Strength")
         st.markdown('''
@@ -732,6 +734,7 @@ if pages == "Dance Recommendation System":
                     - **healthy diet**
                     - **exercise - weight training, planks, squats, push-ups, bicep curls**
                     ''')
+        st.divider()
     if 'Mental Wellness' in health_focus:
         st.subheader("Mental Wellness")
         st.markdown('''
@@ -756,6 +759,7 @@ if pages == "Dance Recommendation System":
                     - **community**
                     - **therapy**
                     ''')
+        st.divider()
     if 'Community' in health_focus:
         st.subheader("Community")
         st.markdown('''
@@ -774,6 +778,7 @@ if pages == "Dance Recommendation System":
                     - **host events**
                     - **mentorship**
                     ''')
+        st.divider()
     if 'Boost' in health_focus:
         st.subheader("Boost")
         st.markdown('''
@@ -795,6 +800,7 @@ if pages == "Dance Recommendation System":
                     - **hobbies**
                     - **journaling**
                     ''')
+        st.divider()
     if 'Cerebellum' in health_focus:
         st.subheader("Cerebellum")
         st.markdown('''
@@ -821,11 +827,12 @@ if pages == "Dance Recommendation System":
                     - **healthy diet**
                     - **limit alcohol and tobacco use**
                 ''')
+        st.divider()
     
     
     #['Improved cardiovascular health', 'Improved flexibility', 'Stress relief', 'Confidence', 'Physical fitness', 'Social connection', 'Strength', 'Mental Wellness', 'Community', 'Boost', 'Cerebellum'])
     
-    st.divider()
+    #st.divider()
     #Using the users weight = calculate how many calories they are burning
     df2 = pd.read_csv("exercise_dataset.csv")
     #df2 = pd.read_csv("/Users/kendallandrews/Downloads/calories-burned-during-exercise-and-activities/exercise_dataset.csv")
