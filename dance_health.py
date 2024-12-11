@@ -585,6 +585,7 @@ if pages == "Dance Recommendation System":
 
     if 'Improved cardiovascular health' in health_focus:
         st.subheader("Improved cardiovascular health")
+        st.divider()
         st.markdown('''
                     **Cardiovascular health** refers to the overall well-being of your heart and blood vessels.
                     
