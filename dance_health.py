@@ -432,7 +432,7 @@ if pages == 'Library':
 
 
 if pages == "Dance Recommendation System":
-    st.title("**Dance Recommendation System🕺💃**")
+    st.title("**Dance Recommendation System🕺**")
     #st.image('/Users/kendallandrews/Downloads/hangintherebaby.jpg')
 
     #AI-driven recommendations based on user data (e.g., suggesting new dances)
@@ -445,7 +445,7 @@ if pages == "Dance Recommendation System":
     #Interactive Tools: Adjust filters and preferences to see real-time updates to your personalized dance recommendations.
 
 
-    st.subheader("Get Started")
+    st.subheader("Let's Get Started")
     st.markdown('''Simply choose your preferences—intensity level, health focus, and more—and let us curate a dynamic playlist of dances that match your goals. 
                             It’s time to move, groove, and improve your health through the power of dance!
                 ''')
@@ -584,15 +584,535 @@ if pages == "Dance Recommendation System":
         st.write("No dances found matching your preferences.")
 
     if 'Improved cardiovascular health' in health_focus:
+        st.subheader("Improved cardiovascular health")
         st.markdown('''
-                    Cardiovascular health refers to the overall well-being of your heart and blood vessels, and encompasses conditions like coronary artery disease, stroke, heart failure, and arrhythmias; "cardiovascular disease" refers to a group of disorders affecting the heart and blood vessels, often caused by risk factors like high blood pressure, high cholesterol, smoking, and diabetes, making it the leading cause of death globally.
-                    In order to keep good cardiovascular health, you should keep a **heart-healthy diet**, **stay active**, **keep a health weight**, **Do not partake in smoking and drink alcohol in moderation**.")
-                    ''')
+                    **Cardiovascular health** refers to the overall well-being of your heart and blood vessels.
+                    
+                    It encompasses conditions like:
+                    - coronary artery disease
+                    - stroke
+                    - heart failure
+                    - arrhythmias 
 
+                    Cardiovascular disease" refers to a group of disorders affecting the heart and blood vessels, often caused by risk factors like high blood pressure, high cholesterol, smoking, and diabetes, making it the leading cause of death globally.
+                    
+                    Tools for good cardiovascular health:
+                    - **heart-healthy diet**
+                    - **exercise**
+                    - **keep a health weight**
+                    - **No smoking or alcohol; in moderation**
+                    ''')
+    if 'Improved flexibility' in health_focus:
+        st.subheader("Improved flexibility")
+        st.markdown('''
+                    **Flexibility** is the ability of a joint or group of joints to move through a full range of motion without pain.
+
+                    Flexibility can be affected by:
+                    - injuries
+                    - inactivity
+                    - lack of stretching
+                    - joint structure.
+
+                    Toolfs for flexibilty: 
+                    - **stretch regularly**
+                    - **practice dynamic stretching**
+                    - **healthy diet**
+                    **exercise**
+                    ''')
+    
+    if 'Stress relief' in health_focus:
+        st.subheader("Stress relief")
+        st.markdown('''
+                    **Stress** is a feeling of emotional or physical tension that's a natural response to challenges.
+
+                    Stress can develop in multiple ways, some including:
+                    - headaches
+                    - body aches
+                    - upset stomach
+                    - trouble sleeping
+                    - loss of appetite
+                    - increased heart rate
+                    - shortness of breath.
+
+                    Small amounts of stress can be beneficial, helping you perform better and react to your environment. However, too much stress can cause physical and mental health problems. 
+
+                    Chronic stress, which lasts for a long time or keeps coming back, can worsen pre-existing health problems and increase the use of substances like alcohol and tobacco.
+
+                    Tools for stress relief: 
+                    - **breathing; relaxation techniques**
+                    - **mindfulness**
+                    - **yoga**
+                    - **healthy diet**
+                    - **exercise**
+                    - **sleep**
+                    - **take breaks**
+                    - **have fun: laugh, listen to music, play fun activities**
+                    ''')
+        
+    if 'Confidence' in health_focus:
+        st.subheader("Confidence")
+        st.markdown('''
+                    **Confidence** is the feeling of trust or belief in one's abilities or qualities, and the expectation that one can accomplish what they set out to do.
+
+                    The lack of confidence can have negative effects such as: 
+                    - depression
+                    - low self-esteem
+                    - anxiety
+                    - unhealthy choices.
+
+                    Tools to gain confidence: 
+                    - **exercise**
+                    - **set goals**
+                    - **positive affirmations**
+                    - **embrace failure**
+                    - **acknowledge strengths and achievements**
+                    ''')
+    if 'Physical fitness' in health_focus:
+        st.subheader("Physical fitness")
+        st.markdown('''
+                    **Physical fitness** is one's ability to execute daily activities with optimal performance, endurance, and strength with the management of disease, fatigue, and stress and reduced sedentary behavior.
+
+                    The lack of physical fitness can result in:
+                    - cardiovascular disease
+                    - diabetes
+                    - osteoporosis
+                    - cancer
+                    - high blood pressure
+                    - high cholesterol
+                    - metabolic syndrome
+                    - obesity
+                    - bad digestive health
+                    - bad mental health. 
+                    
+                    Tools to improve physical fitness: 
+                    - **exercise - weight training, biking, walking, running, aerobic exercise, sports**
+                    - **healthy diet**
+                    ''')
+    
+    if 'Social connection' in health_focus:
+        st.subheader("Social connection")
+        st.markdown('''
+                    **Social connection** is the feeling of being close to and connected with others. 
+                    
+                    It's a fundamental human need that's essential for health and well-being.
+
+                    Social connection involves: 
+                    - feeling loved, cared for, and valued, 
+                    - sharing time, experiences, and stories with others 
+                    - listening to others 
+                    - building a group of people who care about you 
+
+                    The lack of social connection can lead to bad mental and physical health, bad cardiovascular health, and lacking a sense of self worth.
+
+                    
+                    Tools to improve social connection: 
+                    - **spending more time with family and friends**
+                    - **spending time in nature**
+                    - **voluntering**
+                    - **getting involved in the community**
+
+                    ''')
+        
+    if 'Strength' in health_focus:
+        st.subheader("Strength")
+        st.markdown('''
+                    **Strengthn** is the quality or state of being physically strong.
+                        
+                    A lack of strength, weakness, can affect your entire body or just one part. 
+                        
+                    Some common causes of weakness include: 
+                    - overexertion
+                    - electrolyte imbalance
+                    - muscle injury
+                    - aging
+                    - and other health problems: hyroid disease, anemia, chronic kidney or liver disease, cancer, stroke, and multiple sclerosis
+                    
+                    Tools to improve strength: 
+                    - **healthy diet**
+                    - **exercise - weight training, planks, squats, push-ups, bicep curls**
+                    ''')
+    if 'Mental Wellness' in health_focus:
+        st.subheader("Mental Wellness")
+        st.markdown('''
+                    **Mental Health** is a person’s condition with regard to their psychological and emotional well-being.
+                    
+                    There a four types of mental health: mood disorders (such as depression or bipolar disorder) anxiety disorders, personality disorders, and psychotic disorders (such as schizophrenia).
+                        
+                    Mental health can affect many things, such as: 
+                    - physical health 
+                    - relationships
+                    - work/school
+                    - cause diabilities
+                    - cause early dealth
+                    
+                    Tools to improve strength: 
+                    - **healthy diet**
+                    - **exercise**
+                    - **sleep**
+                    - **journaling**
+                    - **reading**
+                    - **limit screen time**
+                    - **community**
+                    - **therapy**
+                    ''')
+    if 'Community' in health_focus:
+        st.subheader("Community")
+        st.markdown('''
+                    **Community** is a group of people living in the same place or having a particular characteristic in common or a feeling of fellowship with others, as a result of sharing common attitudes, interests, and goals.
+                    
+                    Lack of community can cause negative health such as: 
+                    - mental health 
+                    - physical health
+                    - brain health
+                    - emotional pain
+                    - reduce immunity
+                    - poor sleep
+                    
+                    Tools to increase community: 
+                    - **volunteer**
+                    - **host events**
+                    - **mentorship**
+                    ''')
+    if 'Boost' in health_focus:
+        st.subheader("Boost")
+        st.markdown('''
+                    A **Boost** helps or encourage (something) to increase or improve.
+                    
+                    This can come in many forms such as:
+                    - increased energy 
+                    - improved mood
+                    - increased happiness and well-being
+                    - relieving stress
+
+                    
+                    Tools to provide a boost: 
+                    - **exercise**
+                    - **healthy diet**
+                    - **sleep**
+                    - **mindfulness practices (meditation, deep breathing**
+                    - **social connection**
+                    - **hobbies**
+                    - **journaling**
+                    ''')
+    if 'Cerebellum' in health_focus:
+        st.subheader("Cerebellum")
+        st.markdown('''
+                    The **Cerebellum** is a part of the brain that controls balance, coordination, and other complex motor functions.
+                            
+                    The cerebellum is located at the bottom of the brain, just above where your neck meets your skull. 
+
+                    It works by:
+                    - Receiving information about intended movement, movement in progress, and posture control 
+                    - Comparing this information to determine the extent and timing of muscle contractions 
+                    - Sending feedback to the motor areas of the cerebrum for adjustments 
+                    - Insuring that muscles are doing what you want them to do by comparing nerve impulses from all over the body and brain
+                    
+                    Damage to the cerebellum can cause a variety of serious effects, such as:
+                    - Motor issues: Difficulty coordinating movements, such as walking, using your hands, or holding your head up 
+                    - Balance problems: Dizziness, vertigo, or an unsteady gait 
+                    - Eye problems: Double vision, involuntary eye movements, or trouble controlling eye movements 
+                    - Speech issues: Dysarthria, or difficulty speaking clearly 
+                    - Shaking: Tremors or shaking, especially in the hands 
+                    - Cognitive deficits
+
+                    Tools to help your cerebellum: 
+                    - **regular exercise**
+                    - **healthy diet**
+                    - **limit alcohol and tobacco use**
+                ''')
+    
+    
+    #['Improved cardiovascular health', 'Improved flexibility', 'Stress relief', 'Confidence', 'Physical fitness', 'Social connection', 'Strength', 'Mental Wellness', 'Community', 'Boost', 'Cerebellum'])
+    
+    st.divider()
+    #Using the users weight = calculate how many calories they are burning
+    df2 = pd.read_csv("/Users/kendallandrews/Downloads/calories-burned-during-exercise-and-activities/exercise_dataset.csv")
+    d3 = df2.iloc[[29, 34, 35, 36],:]
+
+    
+    #Special Addition
+    st.header("Special Addition")
+    st.write("First look at our upcoming feature that displays a combination of dance and exercise: *Jazzercise*")
+    special = pd.DataFrame(
+    {
+        "type": ["Jazz/ Exercise"],
+        "name": ["Jazzercise"],
+        "difficulty": ["Moderate"],
+        "health": [", ".join(["Improved cardiovascular health", "Strength", "Mental health", "Cerebellum", "Improved flexibility"])],
+        "music": ["Pop"],
+        "origin": ["United States"],
+        "time": ["Any Time of Day"],
+        "130 lb": [d3['130 lb'][29]],
+        "155 lb": [d3['155 lb'][29]],
+        "180 lb": [d3['180 lb'][29]],
+        "205 lb": [d3['205 lb'][29]]
+    }
+)
+
+    st.dataframe(
+        special,
+        column_config={
+            "type": "Dance Type",
+            "name": "Exercise",
+            "difficulty": 'Learning Difficulty',
+            "health": "Health Benefits",
+            "music": "Associated Music Genre",
+            "origin": "Origin",
+            "time": "Time of Day",
+            "130 lb": "130 lb",
+            "155 lb": "155 lb",
+            "180 lb": "180 lb",
+            "205 lb": "205 lb"
+
+        },
+        hide_index=True,
+    )
+
+    st.write("This feature incorporates the calories you will lose in an hour of completing these exercises/dances depending on your weight")
+    st.divider()
+
+    if 'Ballet' in recommended_dances['Dance style'].values:
+        st.write("You were recommended *Ballet*. That dance is in our upcoming feature!")
+        ballet_special = pd.DataFrame(
+            {
+                "Dance Type": ["Historical Ballet"],
+                "Dance style": ["Ballet"],
+                "difficulty": ["Moderate"],
+                "health": ["Improved flexibility"],
+                "music": ["Classical"],
+                "origin": ["United States"],
+                "time": ["Afternoon"],
+                "130 lb": [d3['130 lb'][34]],
+                "155 lb": [d3['155 lb'][34]],
+                "180 lb": [d3['180 lb'][34]],
+                "205 lb": [d3['205 lb'][34]]
+            }
+        )
+
+        st.dataframe(
+        ballet_special,
+        column_config={
+                    "Dance Type": "Dance Type",
+                    "Dance style": "Dance style",
+                    "difficulty": 'Learning Difficulty',
+                    "health": "Health Benefits",
+                    "music": "Associated Music Genre",
+                    "origin": "Origin",
+                    "time": "Time of Day",
+                    "130 lb": "130 lb",
+                    "155 lb": "155 lb",
+                    "180 lb": "180 lb",
+                    "205 lb": "205 lb"
+
+                },
+                hide_index=True,
+            )
+        #weight_input = st.number_input("Can you remind me of your weight?:", format="%.0f")
+        #if (130 <= weight_input) and (weight_input < 155):
+            #st.write("Based on your weight, you would lose around", d3['130 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #elif (155 <= weight_input) and (weight_input < 180):
+            #st.write("Based on your weight, you would lose around", d3['155 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #elif (180 <= weight_input) and (weight_input < 205):
+            #st.write("Based on your weight, you would lose around", d3['180 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #elif weight_input >= 205:
+            #st.write("Based on your weight, you would lose around", d3['205 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #else:
+            #pass
+    if 'Twist' in recommended_dances['Dance style'].values:
+        st.write("You were recommended *Twist*. That dance is in our upcoming feature!")
+        twist_special = pd.DataFrame(
+            {
+                "Dance Type": ["Novelty and fad dance"],
+                "Dance style": ["Twist"],
+                "difficulty": ["Easy"],
+                "health": ["Stress relief"],
+                "music": ["Pop"],
+                "origin": ["United States"],
+                "time": ["Afternoon"],
+                "130 lb": [d3['130 lb'][34]],
+                "155 lb": [d3['155 lb'][34]],
+                "180 lb": [d3['180 lb'][34]],
+                "205 lb": [d3['205 lb'][34]]
+            }
+        )
+
+        st.dataframe(
+        twist_special,
+        column_config={
+                    "Dance Type": "Dance Type",
+                    "Dance style": "Dance style",
+                    "difficulty": 'Learning Difficulty',
+                    "health": "Health Benefits",
+                    "music": "Associated Music Genre",
+                    "origin": "Origin",
+                    "time": "Time of Day",
+                    "130 lb": "130 lb",
+                    "155 lb": "155 lb",
+                    "180 lb": "180 lb",
+                    "205 lb": "205 lb"
+
+                },
+                hide_index=True,
+            )
+        #weight_input = st.number_input("Can you remind me of your weight?:")
+        #if (130 <= weight_input) and (weight_input < 155):
+            #st.write("Based on your weight, you would lose around", d3['130 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #elif (155 <= weight_input) and (weight_input < 180):
+            #st.write("Based on your weight, you would lose around", d3['155 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #elif (180 <= weight_input) and (weight_input < 205):
+            #st.write("Based on your weight, you would lose around", d3['180 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #elif weight_input >= 205:
+            #st.write("Based on your weight, you would lose around", d3['205 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #else:
+            #pass
+    if 'tap dancing' in recommended_dances['Dance style'].values:
+        st.write("You were recommended *Tap*. That dance is in our upcoming feature!")
+        tap_special = pd.DataFrame(
+            {
+                "Dance Type": ["American"],
+                "Dance style": ["tap dancing"],
+                "difficulty": ["Easy"],
+                "health": ["Improves cardiovascular health"],
+                "music": ["Hip hop"],
+                "origin": ["United States"],
+                "time": ["Night"],
+                "130 lb": [d3['130 lb'][34]],
+                "155 lb": [d3['155 lb'][34]],
+                "180 lb": [d3['180 lb'][34]],
+                "205 lb": [d3['205 lb'][34]]
+            }
+        )
+
+        st.dataframe(
+        tap_special,
+        column_config={
+                    "Dance Type": "Dance Type",
+                    "Dance style": "Dance style",
+                    "difficulty": 'Learning Difficulty',
+                    "health": "Health Benefits",
+                    "music": "Associated Music Genre",
+                    "origin": "Origin",
+                    "time": "Time of Day",
+                    "130 lb": "130 lb",
+                    "155 lb": "155 lb",
+                    "180 lb": "180 lb",
+                    "205 lb": "205 lb"
+
+                },
+                hide_index=True,
+            )
+        #weight_input = st.number_input("Can you remind me of your weight?:")
+        #if (130 <= weight_input) and (weight_input < 155):
+            #st.write("Based on your weight, you would lose around", d3['130 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #elif (155 <= weight_input) and (weight_input < 180):
+            #st.write("Based on your weight, you would lose around", d3['155 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #elif (180 <= weight_input) and (weight_input < 205):
+            #st.write("Based on your weight, you would lose around", d3['180 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #elif weight_input >= 205:
+            #st.write("Based on your weight, you would lose around", d3['205 lb'][34], "calories after 1 hour of", recommended_dances['Dance style'].values)
+        #else:
+            #pass
+    if 'Latin dance / Rhythm' in recommended_dances['Dance Type'].values:
+        st.write("You were recommended *Ballroom*. That dance is in our upcoming feature!")
+        st.write("Depending on the tempo...")
+        ball_s_special = pd.DataFrame(
+            {
+                "Dance Type": ["Latin dance / Rhythm"],
+                "Dance style": ["Ballroom (slow)"],
+                "difficulty": ["Varies"],
+                "health": [", ".join(["Improved cardiovascular health", "Stress relief", "Improved flexibility"])],
+                "music": ["Latin"],
+                "origin": ["Brazil"],
+                "time": ["Varies"],
+                "130 lb": [d3['130 lb'][35]],
+                "155 lb": [d3['155 lb'][35]],
+                "180 lb": [d3['180 lb'][35]],
+                "205 lb": [d3['205 lb'][35]]
+            }
+        )
+
+        st.dataframe(
+        ball_s_special,
+        column_config={
+                    "Dance Type": "Dance Type",
+                    "Dance style": "Dance style",
+                    "difficulty": 'Learning Difficulty',
+                    "health": "Health Benefits",
+                    "music": "Associated Music Genre",
+                    "origin": "Origin",
+                    "time": "Time of Day",
+                    "130 lb": "130 lb",
+                    "155 lb": "155 lb",
+                    "180 lb": "180 lb",
+                    "205 lb": "205 lb"
+
+                },
+                hide_index=True,
+            )
+        ball_f_special = pd.DataFrame(
+            {
+                "Dance Type": ["Latin dance / Rhythm"],
+                "Dance style": ["Ballroom (fast)"],
+                "difficulty": ["Varies"],
+                "health": [", ".join(["Improved cardiovascular health", "Stress relief", "Improved flexibility"])],
+                "music": ["Latin"],
+                "origin": ["Brazil"],
+                "time": ["Varies"],
+                "130 lb": [d3['130 lb'][36]],
+                "155 lb": [d3['155 lb'][36]],
+                "180 lb": [d3['180 lb'][36]],
+                "205 lb": [d3['205 lb'][36]]
+            }
+        )
+
+        st.dataframe(
+        ball_f_special,
+        column_config={
+                    "Dance Type": "Dance Type",
+                    "Dance style": "Dance style",
+                    "difficulty": 'Learning Difficulty',
+                    "health": "Health Benefits",
+                    "music": "Associated Music Genre",
+                    "origin": "Origin",
+                    "time": "Time of Day",
+                    "130 lb": "130 lb",
+                    "155 lb": "155 lb",
+                    "180 lb": "180 lb",
+                    "205 lb": "205 lb"
+
+                },
+                hide_index=True,
+            )
+            
+        #weight_input = st.number_input("Can you remind me of your weight?:")
+        #speed = st.multiselect("Which speed of Ballroom would you prefer", ["Slow", "Fast"])
+        #if speed == "Slow":
+            #if (130 <= weight_input) and (weight_input < 155):
+                #st.write("Based on your weight, you would lose around", d3['130 lb'][35], "calories after 1 hour of", recommended_dances['Dance style'].values)
+            #elif (155 <= weight_input) and (weight_input < 180):
+                #st.write("Based on your weight, you would lose around", d3['155 lb'][35], "calories after 1 hour of", recommended_dances['Dance style'].values)
+            #elif (180 <= weight_input) and (weight_input < 205):
+                #st.write("Based on your weight, you would lose around", d3['180 lb'][35], "calories after 1 hour of", recommended_dances['Dance style'].values)
+            #elif weight_input >= 205:
+                #t.write("Based on your weight, you would lose around", d3['205 lb'][35], "calories after 1 hour of", recommended_dances['Dance style'].values)
+            #else:
+                #pass
+        #if speed == "Fast":
+            #if (130 <= weight_input) and (weight_input < 155):
+                #st.write("Based on your weight, you would lose around", d3['130 lb'][36], "calories after 1 hour of", recommended_dances['Dance style'].values)
+            #elif (155 <= weight_input) and (weight_input < 180):
+                #st.write("Based on your weight, you would lose around", d3['155 lb'][36], "calories after 1 hour of", recommended_dances['Dance style'].values)
+            #elif (180 <= weight_input) and (weight_input < 205):
+                #st.write("Based on your weight, you would lose around", d3['180 lb'][36], "calories after 1 hour of", recommended_dances['Dance style'].values)
+            #elif weight_input >= 205:
+                #st.write("Based on your weight, you would lose around", d3['205 lb'][36], "calories after 1 hour of", recommended_dances['Dance style'].values)
+            #else:
+                #pass
+    st.divider()
     st.subheader("Summary")
     st.markdown('''
                 The dance recommendation system tailors suggestions based on your preferences and fitness goals. 
-                This system not only motivates users but also helps them achieve health goals in a fun and engaging way!
+                This system not only motivates users but also helps them achieve health goals in a fun and engaging way💃!
                 ''')     
 
 
