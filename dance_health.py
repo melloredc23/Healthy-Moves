@@ -826,7 +826,8 @@ if pages == "Dance Recommendation System":
     
     st.divider()
     #Using the users weight = calculate how many calories they are burning
-    df2 = pd.read_csv("/Users/kendallandrews/Downloads/calories-burned-during-exercise-and-activities/exercise_dataset.csv")
+    df2 = pd.read_csv("exercise_dataset.csv")
+    #df2 = pd.read_csv("/Users/kendallandrews/Downloads/calories-burned-during-exercise-and-activities/exercise_dataset.csv")
     d3 = df2.iloc[[29, 34, 35, 36],:]
 
     
